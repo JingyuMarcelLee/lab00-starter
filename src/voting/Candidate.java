@@ -101,4 +101,13 @@ public class Candidate {
 		}
 	}
 
+	public static void main(String[] args) {
+		Candidate candidate1 = new Candidate("Marcel", "Radical", 999999); 
+		Candidate candidate2 = new Candidate("Annie", "Moderate", 3);
+		Candidate candidate3 = new Candidate("Ben", "Green", 2);
+		
+		System.out.println(candidate1.getName() + " has " + candidate1.getVotes() + " votes.");
+		System.out.println(candidate2.getName() + " has " + candidate2.getVotes() + " votes.");
+		System.out.println(candidate3.getName() + " has " + candidate3.getVotes() + " votes.");
+	}
 }
